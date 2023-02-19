@@ -35,7 +35,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Get All Orders",
 			"request": {
 				"method": "GET",
 				"header": [],
