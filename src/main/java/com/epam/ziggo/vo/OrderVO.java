@@ -1,11 +1,5 @@
 package com.epam.ziggo.vo;
 
-import java.lang.annotation.Annotation;
-
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Null;
-
-import com.epam.ziggo.validation.UserValidationConstraint;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

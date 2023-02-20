@@ -2,18 +2,9 @@ package com.epam.ziggo.service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.TimeUnit;
-
-import javax.annotation.PostConstruct;
 
 import com.epam.ziggo.vo.UserVO;
-import feign.Feign;
-import feign.Retryer;
-import feign.gson.GsonDecoder;
-import feign.gson.GsonEncoder;
-import feign.okhttp.OkHttpClient;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
