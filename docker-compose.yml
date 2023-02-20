@@ -1,6 +1,6 @@
 version: "3.7"
 services:
-z  example-mysql:
+  example-mysql:
     container_name: ziggo-example-mysql
     ports:
       - '3306:3306'
