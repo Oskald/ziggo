@@ -1,7 +1,6 @@
 version: "3.7"
 services:
-    #see description of listeners https://rmoff.net/2018/08/02/kafka-listeners-explained/
-  example-mysql:
+z  example-mysql:
     container_name: ziggo-example-mysql
     ports:
       - '3306:3306'
